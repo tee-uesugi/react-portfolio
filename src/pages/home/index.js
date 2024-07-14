@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import Themetoggle from "../../components/themetoggle/index.js";
 
 export const Home = () => {
+  const storedTheme = localStorage.getItem("image");
+  const ThemetoggleImage = storedTheme === "dark"? "/photo/S__8544261_0.jpg" : "/photo/S__8544260_0.jpg";
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -17,7 +21,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            style={{ backgroundImage: `url(${process.env.PUBLIC_URL + storedTheme})` }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -39,8 +43,20 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
+                <a href="https://docs.google.com/document/d/1NgKp82JPe2jBjVOhYbQqo5bhtYs8I4G78NrN3lbKWlw/export?format=pdf" 
+                  class="text_2 download-link" 
+                  download="resume.pdf" 
+                  target="_blank" 
+                  rel="noreferrer">
+                 <div id="button_p" class="ac_btn btn">
+                       Resume
+                    <div class="ring one"></div>
+                    <div class="ring two"></div>
+                    <div class="ring three"></div>
+                 </div>
+                </a>
+                  <Link to="/portfolio">
+                    <div id="button_h" className="ac_btn btn">
                       My Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
@@ -49,7 +65,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      Contact Me 
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

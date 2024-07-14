@@ -7,12 +7,12 @@ const meta = {
 const introdata = {
     title: "Hi, I’m Tee",
     animated: {
-        first: "I am a Full stack devloper",
+        first: "I am a Full stack developer",
         second: "I am Web-Dev Lover 🁪",
         third: "I want to design the world with fun 🌎",
     },
     description: "I am enthusiastic about leveraging my strong analytical skills, creativity, and passion for technology to develop impactful applications. My goal is to apply advanced front-end and back-end development expertise to drive innovation and efficiency within the tech industry.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://coffeeroasting.co.th/admin_product/productimages/25/7789-9.jpg",
 };
 
 const dataabout = {
@@ -67,16 +67,20 @@ const skills = [{
 ];
 
 const services = [{
+        title: "Full-stack Development",
+        description: "Expert in seamlessly integrating front-end and back-end technologies using React and Node.js, Django, or Flask. Designs and implements end-to-end solutions, encompassing database architecture design, server-side logic development, and responsive UI implementation. Proficient in utilizing additional tools such as Docker for containerization and GraphQL for efficient API development, enhancing scalability and performance across web applications.",
+    },
+    {
+        title: "Front-end Development",
+        description: "Specializes in HTML, CSS, and JavaScript, with proficiency in frameworks like React for building dynamic and responsive interfaces. Utilizes Tailwind CSS for efficient styling and Figma for design collaboration, ensuring user-friendly and visually appealing experiences.",
+    },
+    {
+        title: "Back-end Development",
+        description: "Proficient in server-side programming languages such as Node.js and Python (using frameworks like Express.js, Django, or Flask), focusing on developing robust server-side logic and APIs. Demonstrates expertise in integrating with SQL and NoSQL databases like MongoDB, MySQL, and PostgreSQL for efficient data management. Emphasizes building secure and scalable architectures to support front-end functionalities.",
+    },
+    {
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Capable of using Figma to create intuitive, visually appealing user interfaces, applying design principles to enhance UX/UI, and translating user needs and business requirements into interactive designs that prioritize usability and accessibility.",
     },
 ];
 
@@ -144,19 +148,19 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "apiwat.pienwisetkaew@gmail.com",
+    YOUR_FONE: "091-0579418",
+    description: " 685 Rat Bamrung Road,Tad Chueang Chum Subdistrict, Mueang District, Sakon Nakhon Province, 47000 ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "",
+    YOUR_TEMPLATE_ID: "",
+    YOUR_USER_ID: "",
 };
 
 const socialprofils = {
     github: "https://github.com/tee-uesugi",
-    facebook: "https://facebook.com",
+    facebook: "https://www.facebook.com/profile.php?id=100010805078481&mibextid=LQQJ4d",
     linkedin: "http://linkedin.com/in/apiwat-pwk",
     twitter: "https://twitter.com",
 };
