@@ -1,59 +1,67 @@
-const logotext = "JOHN";
+const logotext = "Tee";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Apiwat Pienwisetkaew",
+    description: "I’m Tee Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hi, I’m Tee",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am a Full stack devloper",
+        second: "I am Web-Dev Lover 🁪",
+        third: "I want to design the world with fun 🌎",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I am enthusiastic about leveraging my strong analytical skills, creativity, and passion for technology to develop impactful applications. My goal is to apply advanced front-end and back-end development expertise to drive innovation and efficiency within the tech industry.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Professional Summary",
+    aboutme: "Passionately diving into a Full Stack Development Bootcamp, I bring a robust background in object-oriented analysis and design within the oil and gas industry in Bangkok, along with experience as a business owner. I am eager to leverage my analytical skills, creativity, and passion for technology to build impactful applications. My objective is to utilize my advanced front-end and back-end development skills to drive innovation and efficiency in the tech industry.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "junior software developer bootcamp generation thailand",
+        where: "Bangkok",
+        date: "May. 2024 - July 2024.",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "EARLY RISER’S BURGERS RESTAURANT",
+        where: "Sakon Nakhon",
+        date: "Dec. 2022 - Feb. 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Object - oriented analysis and design at mpc future (oil and gas)",
+        where: "Bangkok",
+        date: "June. 2021 - Aug. 2021",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Javascript",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
+        name: "Python",
+        value: 75,
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
-        name: "Jquery",
+        name: "SQL",
+        value: 70,
+    },
+    {
+        name: "Node.js",
+        value: 80,
+    },
+    {
+        name: "Tailwind",
+        value: 85,
+    },
+    {
+        name: "MongoDB",
         value: 85,
     },
 ];
@@ -147,9 +155,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/tee-uesugi",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "http://linkedin.com/in/apiwat-pwk",
     twitter: "https://twitter.com",
 };
 export {
