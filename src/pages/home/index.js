@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Themetoggle from "../../components/themetoggle/index.js";
 
 export const Home = () => {
-  const storedTheme = localStorage.getItem("image");
+  const storedTheme = "/photo/S__8544260_0.jpg";
   const ThemetoggleImage = storedTheme === "dark"? "/photo/S__8544261_0.jpg" : "/photo/S__8544260_0.jpg";
 
   return (
