@@ -43,7 +43,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                <a href="https://docs.google.com/document/d/1NgKp82JPe2jBjVOhYbQqo5bhtYs8I4G78NrN3lbKWlw/export?format=pdf" 
+                <a href="https://docs.google.com/document/d/19zpXyvMV7WigohgY5q-LYSauVNiwAMwpfmhplCzPy6A/export?format=pdf" 
                   class="text_2 download-link" 
                   download="resume.pdf" 
                   target="_blank" 
